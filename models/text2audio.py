@@ -103,5 +103,5 @@ plt.xlabel('Sample Index')
 plt.ylabel('Amplitude')
 plt.show()
 
-output_file = '/Users/harshdhiman/Documents/Research /Codes/Audio/generated_audio/text2audio.wav'
+output_file = '/Users/harshdhiman/Documents/Research /Codes/AudioGAN/generated_audio/text2audio.wav'
 sf.write(output_file, generated_samples[0], 44100, 'PCM_16')
